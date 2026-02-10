@@ -1,0 +1,14 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="person" class="org.example.Employee" >
+
+        <constructor-arg name="name" value="khushi"/>
+        <constructor-arg name="eid" value="10"/>
+        <constructor-arg name="companyName" value ="adobe"/>
+
+    </bean>
+
+</beans>

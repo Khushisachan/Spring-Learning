@@ -1,0 +1,15 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="person" class="org.example.Phone" >
+
+        <constructor-arg name="modelName" value="redmi"/>
+        <constructor-arg name="companyName" value="xiomi"/>
+        <constructor-arg name="price" value = "2345.0f"/>
+
+
+    </bean>
+
+</beans>

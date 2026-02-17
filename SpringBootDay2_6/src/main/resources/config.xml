@@ -1,0 +1,15 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="person" class="org.example.Laptop" >
+
+
+        <constructor-arg name="brand" value="Dell"/>
+        <constructor-arg name="price" value="2344.0f" />
+        <constructor-arg name="Lid" value="sjjf1356"/>
+
+    </bean>
+
+</beans>
